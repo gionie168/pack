@@ -23,4 +23,8 @@ jobs:
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
           git push
           git clone https://github.com/gionie168/pack.git
-cd pack.git
+$ git add .github/workflows/release-package.yml
+# Also add the file you created or edited in the previous step.
+$ git add .npmrc or package.json
+$ git commit -m "workflow to publish package"
+$ git push
